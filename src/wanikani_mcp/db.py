@@ -40,7 +40,8 @@ CREATE TABLE IF NOT EXISTS assignments (
     passed_at TEXT,
     burned_at TEXT,
     hidden INTEGER NOT NULL DEFAULT 0,
-    updated_at TEXT NOT NULL
+    updated_at TEXT NOT NULL,
+    available_at TEXT
 );
 CREATE INDEX IF NOT EXISTS assignments_subject ON assignments(subject_id);
 
@@ -130,6 +131,25 @@ CREATE TABLE IF NOT EXISTS tool_calls (
     error_type TEXT
 );
 
+-- One row per item quizzed in context. Outcomes only: the learner's answers are not stored.
+CREATE TABLE IF NOT EXISTS context_reviews (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    session_id TEXT NOT NULL,
+    subject_id INTEGER NOT NULL,
+    subject_type TEXT NOT NULL,
+    created_at TEXT NOT NULL,
+    meaning_passed INTEGER NOT NULL DEFAULT 0,
+    reading_passed INTEGER NOT NULL DEFAULT 0,
+    reading_required INTEGER NOT NULL,
+    incorrect_meaning INTEGER NOT NULL DEFAULT 0,
+    incorrect_reading INTEGER NOT NULL DEFAULT 0,
+    meaning_judged_by_model INTEGER NOT NULL DEFAULT 0,
+    status TEXT NOT NULL DEFAULT 'open',  -- open | submitted | practice | failed
+    outcome TEXT,                         -- why it was or wasn't submitted
+    submitted_at TEXT
+);
+CREATE INDEX IF NOT EXISTS context_reviews_open ON context_reviews(session_id, status);
+
 CREATE TABLE IF NOT EXISTS check_text_runs (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     session_id TEXT NOT NULL,
@@ -157,7 +177,16 @@ class Database:
         self.conn.row_factory = sqlite3.Row
         self.conn.execute("PRAGMA foreign_keys = ON")
         self.conn.executescript(SCHEMA)
+        self._migrate()
         self.conn.commit()
+
+    def _migrate(self) -> None:
+        """Upgrade caches created by older versions in place."""
+        columns = {r[1] for r in self.conn.execute("PRAGMA table_info(assignments)")}
+        if "available_at" not in columns:
+            self.conn.execute("ALTER TABLE assignments ADD COLUMN available_at TEXT")
+            # Older rows lack the column, so the next sync refetches all assignments.
+            self.conn.execute("DELETE FROM sync_state WHERE endpoint = 'assignments'")
 
     def close(self) -> None:
         self.conn.close()
@@ -194,13 +223,14 @@ class Database:
     def upsert_assignments(self, records: list[dict[str, Any]]) -> None:
         self.conn.executemany(
             """INSERT OR REPLACE INTO assignments
-               (id, subject_id, subject_type, srs_stage, unlocked_at, started_at, passed_at, burned_at, hidden, updated_at)
-               VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+               (id, subject_id, subject_type, srs_stage, unlocked_at, started_at, passed_at, burned_at, hidden,
+                updated_at, available_at)
+               VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
             [
                 (
                     r["id"], d["subject_id"], d["subject_type"], d["srs_stage"], d.get("unlocked_at"),
                     d.get("started_at"), d.get("passed_at"), d.get("burned_at"), int(d.get("hidden", False)),
-                    r["data_updated_at"],
+                    r["data_updated_at"], d.get("available_at"),
                 )
                 for r in records
                 for d in [r["data"]]

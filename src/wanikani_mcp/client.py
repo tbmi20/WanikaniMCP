@@ -122,6 +122,17 @@ class WaniKaniClient:
         return await self.request("PUT", f"/study_materials/{study_material_id}", json=payload)
 
 
+    async def create_review(
+        self, assignment_id: int, incorrect_meaning_answers: int, incorrect_reading_answers: int
+    ) -> dict[str, Any]:
+        payload = {"review": {
+            "assignment_id": assignment_id,
+            "incorrect_meaning_answers": incorrect_meaning_answers,
+            "incorrect_reading_answers": incorrect_reading_answers,
+        }}
+        return await self.request("POST", "/reviews", json=payload)
+
+
 def _clean(params: dict[str, Any] | None) -> dict[str, Any] | None:
     if not params:
         return None

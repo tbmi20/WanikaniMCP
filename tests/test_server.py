@@ -28,14 +28,16 @@ async def call(client, tool, **args):
     return result.structured_content
 
 
-async def test_lists_six_tools_and_two_prompts(fake_api, db):
+async def test_lists_tools_and_prompts(fake_api, db):
     async with connect(fake_api, db) as mcp_client:
         tools = {t.name: t for t in (await mcp_client.list_tools()).tools}
-        assert set(tools) == {"sync", "find_leeches", "explain_item", "known_items", "check_text", "save_mnemonic"}
+        assert set(tools) == {"sync", "find_leeches", "explain_item", "known_items", "check_text", "save_mnemonic",
+                             "due_items", "find_wanikani_words", "grade_answer", "submit_reviews"}
         read_only = {name for name, t in tools.items() if t.annotations and t.annotations.read_only_hint}
-        assert read_only == {"find_leeches", "explain_item", "known_items", "check_text"}
+        assert read_only == {"find_leeches", "explain_item", "known_items", "check_text", "due_items",
+                             "find_wanikani_words"}
         prompts = {p.name for p in (await mcp_client.list_prompts()).prompts}
-        assert prompts == {"drill_leeches", "story_at_my_level"}
+        assert prompts == {"drill_leeches", "story_at_my_level", "read_and_review"}
 
 
 async def test_tools_ask_for_sync_when_cache_is_empty(fake_api, db):

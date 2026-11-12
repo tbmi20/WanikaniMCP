@@ -24,6 +24,10 @@ MINUTES_SAVED = {
     "check_text": 2.0,        # checking every kanji in a text by hand
     "save_mnemonic": 1.0,
     "sync": 0.0,
+    "due_items": 0.5,
+    "find_wanikani_words": 3.0,  # spotting your WaniKani words in an article
+    "grade_answer": 0.5,
+    "submit_reviews": 0.0,       # replaces reviews you would have done anyway
 }
 
 
@@ -135,6 +139,16 @@ def stats(db: Database) -> dict[str, Any]:
         "COALESCE(SUM(unknown_count), 0) AS unknown, COALESCE(SUM(kanji_total), 0) AS kanji FROM check_text_runs"
     )
     minutes = sum(MINUTES_SAVED.get(c["tool"], 0.0) for c in calls if c["ok"])
+    cr = db.one("""
+        SELECT COUNT(*) AS quizzed,
+               COALESCE(SUM(meaning_passed AND (reading_passed OR NOT reading_required)), 0) AS completed,
+               COALESCE(SUM(incorrect_meaning + incorrect_reading > 0), 0) AS with_mistakes,
+               COALESCE(SUM(meaning_judged_by_model), 0) AS model_judged,
+               COALESCE(SUM(status = 'submitted' AND outcome = 'submit_correct'), 0) AS submitted_correct,
+               COALESCE(SUM(status = 'submitted' AND outcome = 'submit_incorrect'), 0) AS submitted_incorrect,
+               COALESCE(SUM(status = 'practice'), 0) AS practice
+        FROM context_reviews
+    """)
 
     return {
         "sessions": {"count": sessions["n"], "first": sessions["first"], "last": sessions["last"]},
@@ -155,6 +169,15 @@ def stats(db: Database) -> dict[str, Any]:
             "flag_rate_percent": round(100 * ct["flagged"] / ct["runs"], 1) if ct["runs"] else None,
             "unknown_kanji_flagged": ct["unknown"],
             "kanji_checked": ct["kanji"],
+        },
+        "context_reviews": {
+            "items_quizzed": cr["quizzed"],
+            "first_try_pass_rate_percent": round(100 * (cr["completed"] - min(cr["with_mistakes"], cr["completed"]))
+                                                 / cr["quizzed"], 1) if cr["quizzed"] else None,
+            "meanings_judged_by_model": cr["model_judged"],
+            "submitted_correct": cr["submitted_correct"],
+            "submitted_incorrect": cr["submitted_incorrect"],
+            "kept_as_practice": cr["practice"],
         },
         "estimated_minutes_saved": round(minutes, 1),
     }
@@ -189,6 +212,14 @@ def format_stats(data: dict[str, Any]) -> str:
         f"check_text runs:     {c['runs']}  (flagged unknown kanji in {c['runs_with_unknown_kanji']}"
         + (f", {c['flag_rate_percent']}%)" if c["runs"] else ")"),
         f"Unknown kanji found: {c['unknown_kanji_flagged']} of {c['kanji_checked']} kanji checked",
-        f"Time saved (est.):   {data['estimated_minutes_saved']} min",
     ]
+    r = data["context_reviews"]
+    if r["items_quizzed"]:
+        lines += [
+            f"Context quizzes:     {r['items_quizzed']} items, {r['first_try_pass_rate_percent']}% passed first try "
+            f"({r['meanings_judged_by_model']} meanings judged by the model)",
+            f"WaniKani reviews:    {r['submitted_correct']} correct + {r['submitted_incorrect']} incorrect submitted, "
+            f"{r['kept_as_practice']} kept as practice",
+        ]
+    lines.append(f"Time saved (est.):   {data['estimated_minutes_saved']} min")
     return "\n".join(lines)

@@ -59,6 +59,8 @@ class FakeWaniKani:
         if ids := params.get("subject_ids"):
             wanted = {int(i) for i in ids.split(",")}
             records = [r for r in records if r["data"]["subject_id"] in wanted]
+        if params.get("immediately_available_for_review") == "true":
+            records = [r for r in records if self.is_due(r)]
         if after_id := params.get("page_after_id"):
             records = [r for r in records if r["id"] > int(after_id)]
         page, rest = records[: self.per_page], records[self.per_page :]
@@ -76,9 +78,38 @@ class FakeWaniKani:
             "data": copy.deepcopy(page),
         }
 
+    NOW = "2026-11-12T12:00:00.000000Z"
+
+    def is_due(self, assignment: dict[str, Any]) -> bool:
+        d = assignment["data"]
+        return bool(d["available_at"]) and d["available_at"] <= self.NOW and not d["burned_at"]
+
+    def _review(self, body: dict[str, Any]) -> httpx.Response:
+        fields = body["review"]
+        for record in self.data["assignments"]["data"]:
+            if record["id"] == fields["assignment_id"]:
+                break
+        else:
+            return httpx.Response(404, json={"error": "Not found", "code": 404})
+        if not self.is_due(record):
+            return httpx.Response(422, json={"error": "Assignment is not available for review", "code": 422})
+        start = record["data"]["srs_stage"]
+        wrong = fields["incorrect_meaning_answers"] + fields["incorrect_reading_answers"]
+        end = min(start + 1, 9) if not wrong else max(1, start - -(-wrong // 2) * (2 if start >= 5 else 1))
+        record["data"].update(srs_stage=end, available_at="2026-11-20T12:00:00.000000Z")
+        record["data_updated_at"] = self.NOW
+        return httpx.Response(201, json={
+            "id": 0, "object": "review",
+            "data": {"assignment_id": record["id"], "subject_id": record["data"]["subject_id"],
+                     "starting_srs_stage": start, "ending_srs_stage": end, **fields},
+            "resources_updated": {"assignment": copy.deepcopy(record), "review_statistic": None},
+        })
+
     def _write(self, request: httpx.Request, path: str) -> httpx.Response:
         body = json.loads(request.content)
         self.writes.append((request.method, path, body))
+        if request.method == "POST" and path == "reviews":
+            return self._review(body)
         fields = body["study_material"]
         if request.method == "POST" and path == "study_materials":
             new_id = 99_000_001

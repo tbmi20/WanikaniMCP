@@ -51,3 +51,25 @@ async def test_user_profile_keeps_only_level(synced_db: Database):
     columns = [r[1] for r in synced_db.query("PRAGMA table_info(user_profile)")]
     assert "username" not in columns
     assert synced_db.scalar("SELECT level FROM user_profile") == 60
+
+
+def test_old_cache_is_migrated_and_assignments_refetched(tmp_path):
+    import sqlite3
+
+    path = tmp_path / "old.db"
+    old = sqlite3.connect(path)
+    old.executescript("""
+        CREATE TABLE assignments (id INTEGER PRIMARY KEY, subject_id INTEGER NOT NULL, subject_type TEXT NOT NULL,
+            srs_stage INTEGER NOT NULL, unlocked_at TEXT, started_at TEXT, passed_at TEXT, burned_at TEXT,
+            hidden INTEGER NOT NULL DEFAULT 0, updated_at TEXT NOT NULL);
+        CREATE TABLE sync_state (endpoint TEXT PRIMARY KEY, last_updated_at TEXT NOT NULL);
+        INSERT INTO sync_state VALUES ('assignments', '2026-11-01'), ('subjects', '2026-11-01');
+    """)
+    old.commit()
+    old.close()
+
+    db = Database(path)
+    columns = {r[1] for r in db.query("PRAGMA table_info(assignments)")}
+    assert "available_at" in columns
+    assert db.get_sync_cursor("assignments") is None      # full refetch next sync
+    assert db.get_sync_cursor("subjects") == "2026-11-01"  # others untouched
