@@ -1,0 +1,559 @@
+{
+ "object": "collection",
+ "url": "https://api.wanikani.com/v2/review_statistics?subject_ids=38%2C43%2C60%2C120%2C177%2C188%2C261%2C421%2C788%2C809%2C864%2C891%2C933%2C1052%2C1119%2C1140%2C1354%2C1356%2C1370%2C1386%2C1780%2C2169%2C2319%2C3270%2C4446%2C9220",
+ "pages": {
+  "per_page": 500,
+  "next_url": null,
+  "previous_url": null
+ },
+ "total_count": 26,
+ "data_updated_at": "2026-10-08T13:31:16.041620Z",
+ "data": [
+  {
+   "id": 710673265,
+   "object": "review_statistic",
+   "url": "https://api.wanikani.com/v2/review_statistics/710673265",
+   "data_updated_at": "2026-04-05T14:25:07.744316Z",
+   "data": {
+    "created_at": "2026-04-05T14:25:07.744316Z",
+    "subject_id": 38,
+    "subject_type": "radical",
+    "meaning_correct": 8,
+    "meaning_incorrect": 0,
+    "meaning_max_streak": 8,
+    "meaning_current_streak": 8,
+    "reading_correct": 8,
+    "reading_incorrect": 0,
+    "reading_max_streak": 8,
+    "reading_current_streak": 8,
+    "percentage_correct": 100,
+    "hidden": false
+   }
+  },
+  {
+   "id": 710673268,
+   "object": "review_statistic",
+   "url": "https://api.wanikani.com/v2/review_statistics/710673268",
+   "data_updated_at": "2026-04-05T14:25:07.744316Z",
+   "data": {
+    "created_at": "2026-04-05T14:25:07.744316Z",
+    "subject_id": 43,
+    "subject_type": "radical",
+    "meaning_correct": 11,
+    "meaning_incorrect": 1,
+    "meaning_max_streak": 6,
+    "meaning_current_streak": 5,
+    "reading_correct": 11,
+    "reading_incorrect": 0,
+    "reading_max_streak": 11,
+    "reading_current_streak": 11,
+    "percentage_correct": 96,
+    "hidden": false
+   }
+  },
+  {
+   "id": 710673401,
+   "object": "review_statistic",
+   "url": "https://api.wanikani.com/v2/review_statistics/710673401",
+   "data_updated_at": "2026-04-05T14:25:07.744316Z",
+   "data": {
+    "created_at": "2026-04-05T14:25:07.744316Z",
+    "subject_id": 60,
+    "subject_type": "radical",
+    "meaning_correct": 8,
+    "meaning_incorrect": 0,
+    "meaning_max_streak": 8,
+    "meaning_current_streak": 8,
+    "reading_correct": 8,
+    "reading_incorrect": 0,
+    "reading_max_streak": 8,
+    "reading_current_streak": 8,
+    "percentage_correct": 100,
+    "hidden": false
+   }
+  },
+  {
+   "id": 710673718,
+   "object": "review_statistic",
+   "url": "https://api.wanikani.com/v2/review_statistics/710673718",
+   "data_updated_at": "2026-08-06T22:34:43.531853Z",
+   "data": {
+    "created_at": "2026-04-05T14:25:07.911612Z",
+    "subject_id": 120,
+    "subject_type": "radical",
+    "meaning_correct": 9,
+    "meaning_incorrect": 1,
+    "meaning_max_streak": 9,
+    "meaning_current_streak": 9,
+    "reading_correct": 9,
+    "reading_incorrect": 0,
+    "reading_max_streak": 9,
+    "reading_current_streak": 9,
+    "percentage_correct": 95,
+    "hidden": false
+   }
+  },
+  {
+   "id": 710674108,
+   "object": "review_statistic",
+   "url": "https://api.wanikani.com/v2/review_statistics/710674108",
+   "data_updated_at": "2026-04-05T14:25:07.911612Z",
+   "data": {
+    "created_at": "2026-04-05T14:25:07.911612Z",
+    "subject_id": 177,
+    "subject_type": "radical",
+    "meaning_correct": 9,
+    "meaning_incorrect": 1,
+    "meaning_max_streak": 9,
+    "meaning_current_streak": 9,
+    "reading_correct": 9,
+    "reading_incorrect": 0,
+    "reading_max_streak": 9,
+    "reading_current_streak": 9,
+    "percentage_correct": 95,
+    "hidden": false
+   }
+  },
+  {
+   "id": 710674437,
+   "object": "review_statistic",
+   "url": "https://api.wanikani.com/v2/review_statistics/710674437",
+   "data_updated_at": "2026-07-04T20:51:30.438980Z",
+   "data": {
+    "created_at": "2026-04-05T14:25:08.112222Z",
+    "subject_id": 188,
+    "subject_type": "radical",
+    "meaning_correct": 31,
+    "meaning_incorrect": 8,
+    "meaning_max_streak": 7,
+    "meaning_current_streak": 3,
+    "reading_correct": 31,
+    "reading_incorrect": 0,
+    "reading_max_streak": 31,
+    "reading_current_streak": 31,
+    "percentage_correct": 89,
+    "hidden": false
+   }
+  },
+  {
+   "id": 710674820,
+   "object": "review_statistic",
+   "url": "https://api.wanikani.com/v2/review_statistics/710674820",
+   "data_updated_at": "2026-05-12T21:11:35.637692Z",
+   "data": {
+    "created_at": "2026-04-05T14:25:08.306589Z",
+    "subject_id": 788,
+    "subject_type": "kanji",
+    "meaning_correct": 25,
+    "meaning_incorrect": 6,
+    "meaning_max_streak": 7,
+    "meaning_current_streak": 3,
+    "reading_correct": 25,
+    "reading_incorrect": 0,
+    "reading_max_streak": 25,
+    "reading_current_streak": 25,
+    "percentage_correct": 89,
+    "hidden": false
+   }
+  },
+  {
+   "id": 710674832,
+   "object": "review_statistic",
+   "url": "https://api.wanikani.com/v2/review_statistics/710674832",
+   "data_updated_at": "2026-05-10T10:34:45.992609Z",
+   "data": {
+    "created_at": "2026-04-05T14:25:08.306589Z",
+    "subject_id": 809,
+    "subject_type": "kanji",
+    "meaning_correct": 32,
+    "meaning_incorrect": 10,
+    "meaning_max_streak": 7,
+    "meaning_current_streak": 5,
+    "reading_correct": 32,
+    "reading_incorrect": 1,
+    "reading_max_streak": 23,
+    "reading_current_streak": 23,
+    "percentage_correct": 85,
+    "hidden": false
+   }
+  },
+  {
+   "id": 710674935,
+   "object": "review_statistic",
+   "url": "https://api.wanikani.com/v2/review_statistics/710674935",
+   "data_updated_at": "2026-08-05T20:28:06.457873Z",
+   "data": {
+    "created_at": "2026-04-05T14:25:08.306589Z",
+    "subject_id": 3270,
+    "subject_type": "vocabulary",
+    "meaning_correct": 66,
+    "meaning_incorrect": 22,
+    "meaning_max_streak": 7,
+    "meaning_current_streak": 1,
+    "reading_correct": 66,
+    "reading_incorrect": 2,
+    "reading_max_streak": 47,
+    "reading_current_streak": 47,
+    "percentage_correct": 85,
+    "hidden": false
+   }
+  },
+  {
+   "id": 710675193,
+   "object": "review_statistic",
+   "url": "https://api.wanikani.com/v2/review_statistics/710675193",
+   "data_updated_at": "2026-04-05T14:25:08.500771Z",
+   "data": {
+    "created_at": "2026-04-05T14:25:08.500771Z",
+    "subject_id": 864,
+    "subject_type": "kanji",
+    "meaning_correct": 11,
+    "meaning_incorrect": 1,
+    "meaning_max_streak": 7,
+    "meaning_current_streak": 4,
+    "reading_correct": 11,
+    "reading_incorrect": 1,
+    "reading_max_streak": 7,
+    "reading_current_streak": 4,
+    "percentage_correct": 92,
+    "hidden": false
+   }
+  },
+  {
+   "id": 710675256,
+   "object": "review_statistic",
+   "url": "https://api.wanikani.com/v2/review_statistics/710675256",
+   "data_updated_at": "2026-04-05T14:25:08.500771Z",
+   "data": {
+    "created_at": "2026-04-05T14:25:08.500771Z",
+    "subject_id": 891,
+    "subject_type": "kanji",
+    "meaning_correct": 11,
+    "meaning_incorrect": 1,
+    "meaning_max_streak": 7,
+    "meaning_current_streak": 7,
+    "reading_correct": 11,
+    "reading_incorrect": 0,
+    "reading_max_streak": 11,
+    "reading_current_streak": 11,
+    "percentage_correct": 96,
+    "hidden": false
+   }
+  },
+  {
+   "id": 710675528,
+   "object": "review_statistic",
+   "url": "https://api.wanikani.com/v2/review_statistics/710675528",
+   "data_updated_at": "2026-04-05T14:25:08.500771Z",
+   "data": {
+    "created_at": "2026-04-05T14:25:08.500771Z",
+    "subject_id": 933,
+    "subject_type": "kanji",
+    "meaning_correct": 20,
+    "meaning_incorrect": 5,
+    "meaning_max_streak": 7,
+    "meaning_current_streak": 7,
+    "reading_correct": 20,
+    "reading_incorrect": 0,
+    "reading_max_streak": 20,
+    "reading_current_streak": 20,
+    "percentage_correct": 89,
+    "hidden": false
+   }
+  },
+  {
+   "id": 710675671,
+   "object": "review_statistic",
+   "url": "https://api.wanikani.com/v2/review_statistics/710675671",
+   "data_updated_at": "2026-05-28T17:24:28.619100Z",
+   "data": {
+    "created_at": "2026-04-05T14:25:08.500771Z",
+    "subject_id": 421,
+    "subject_type": "radical",
+    "meaning_correct": 21,
+    "meaning_incorrect": 5,
+    "meaning_max_streak": 9,
+    "meaning_current_streak": 9,
+    "reading_correct": 21,
+    "reading_incorrect": 0,
+    "reading_max_streak": 21,
+    "reading_current_streak": 21,
+    "percentage_correct": 89,
+    "hidden": false
+   }
+  },
+  {
+   "id": 710676004,
+   "object": "review_statistic",
+   "url": "https://api.wanikani.com/v2/review_statistics/710676004",
+   "data_updated_at": "2026-04-05T14:25:08.718591Z",
+   "data": {
+    "created_at": "2026-04-05T14:25:08.718591Z",
+    "subject_id": 261,
+    "subject_type": "radical",
+    "meaning_correct": 11,
+    "meaning_incorrect": 1,
+    "meaning_max_streak": 6,
+    "meaning_current_streak": 6,
+    "reading_correct": 11,
+    "reading_incorrect": 0,
+    "reading_max_streak": 11,
+    "reading_current_streak": 11,
+    "percentage_correct": 96,
+    "hidden": false
+   }
+  },
+  {
+   "id": 710676076,
+   "object": "review_statistic",
+   "url": "https://api.wanikani.com/v2/review_statistics/710676076",
+   "data_updated_at": "2026-07-27T10:48:59.869824Z",
+   "data": {
+    "created_at": "2026-04-05T14:25:08.718591Z",
+    "subject_id": 1052,
+    "subject_type": "kanji",
+    "meaning_correct": 37,
+    "meaning_incorrect": 16,
+    "meaning_max_streak": 9,
+    "meaning_current_streak": 1,
+    "reading_correct": 37,
+    "reading_incorrect": 1,
+    "reading_max_streak": 30,
+    "reading_current_streak": 30,
+    "percentage_correct": 81,
+    "hidden": false
+   }
+  },
+  {
+   "id": 710676344,
+   "object": "review_statistic",
+   "url": "https://api.wanikani.com/v2/review_statistics/710676344",
+   "data_updated_at": "2026-04-05T14:25:09.017503Z",
+   "data": {
+    "created_at": "2026-04-05T14:25:09.017503Z",
+    "subject_id": 1119,
+    "subject_type": "kanji",
+    "meaning_correct": 8,
+    "meaning_incorrect": 0,
+    "meaning_max_streak": 8,
+    "meaning_current_streak": 8,
+    "reading_correct": 8,
+    "reading_incorrect": 0,
+    "reading_max_streak": 8,
+    "reading_current_streak": 8,
+    "percentage_correct": 100,
+    "hidden": false
+   }
+  },
+  {
+   "id": 710676551,
+   "object": "review_statistic",
+   "url": "https://api.wanikani.com/v2/review_statistics/710676551",
+   "data_updated_at": "2026-04-05T14:25:09.017503Z",
+   "data": {
+    "created_at": "2026-04-05T14:25:09.017503Z",
+    "subject_id": 1140,
+    "subject_type": "kanji",
+    "meaning_correct": 11,
+    "meaning_incorrect": 1,
+    "meaning_max_streak": 7,
+    "meaning_current_streak": 4,
+    "reading_correct": 11,
+    "reading_incorrect": 0,
+    "reading_max_streak": 11,
+    "reading_current_streak": 11,
+    "percentage_correct": 96,
+    "hidden": false
+   }
+  },
+  {
+   "id": 710676617,
+   "object": "review_statistic",
+   "url": "https://api.wanikani.com/v2/review_statistics/710676617",
+   "data_updated_at": "2026-08-03T16:01:50.484358Z",
+   "data": {
+    "created_at": "2026-04-05T14:25:09.017503Z",
+    "subject_id": 4446,
+    "subject_type": "vocabulary",
+    "meaning_correct": 59,
+    "meaning_incorrect": 24,
+    "meaning_max_streak": 6,
+    "meaning_current_streak": 1,
+    "reading_correct": 59,
+    "reading_incorrect": 1,
+    "reading_max_streak": 45,
+    "reading_current_streak": 45,
+    "percentage_correct": 83,
+    "hidden": false
+   }
+  },
+  {
+   "id": 710677561,
+   "object": "review_statistic",
+   "url": "https://api.wanikani.com/v2/review_statistics/710677561",
+   "data_updated_at": "2026-04-05T14:25:09.544566Z",
+   "data": {
+    "created_at": "2026-04-05T14:25:09.544566Z",
+    "subject_id": 1356,
+    "subject_type": "kanji",
+    "meaning_correct": 8,
+    "meaning_incorrect": 0,
+    "meaning_max_streak": 8,
+    "meaning_current_streak": 8,
+    "reading_correct": 8,
+    "reading_incorrect": 0,
+    "reading_max_streak": 8,
+    "reading_current_streak": 8,
+    "percentage_correct": 100,
+    "hidden": false
+   }
+  },
+  {
+   "id": 710677567,
+   "object": "review_statistic",
+   "url": "https://api.wanikani.com/v2/review_statistics/710677567",
+   "data_updated_at": "2026-08-04T18:32:15.644817Z",
+   "data": {
+    "created_at": "2026-04-05T14:25:09.544566Z",
+    "subject_id": 1354,
+    "subject_type": "kanji",
+    "meaning_correct": 54,
+    "meaning_incorrect": 14,
+    "meaning_max_streak": 8,
+    "meaning_current_streak": 1,
+    "reading_correct": 54,
+    "reading_incorrect": 10,
+    "reading_max_streak": 10,
+    "reading_current_streak": 6,
+    "percentage_correct": 82,
+    "hidden": false
+   }
+  },
+  {
+   "id": 710677577,
+   "object": "review_statistic",
+   "url": "https://api.wanikani.com/v2/review_statistics/710677577",
+   "data_updated_at": "2026-04-05T14:25:09.544566Z",
+   "data": {
+    "created_at": "2026-04-05T14:25:09.544566Z",
+    "subject_id": 1370,
+    "subject_type": "kanji",
+    "meaning_correct": 14,
+    "meaning_incorrect": 2,
+    "meaning_max_streak": 6,
+    "meaning_current_streak": 4,
+    "reading_correct": 14,
+    "reading_incorrect": 0,
+    "reading_max_streak": 14,
+    "reading_current_streak": 14,
+    "percentage_correct": 93,
+    "hidden": false
+   }
+  },
+  {
+   "id": 710677740,
+   "object": "review_statistic",
+   "url": "https://api.wanikani.com/v2/review_statistics/710677740",
+   "data_updated_at": "2026-04-05T14:25:09.739993Z",
+   "data": {
+    "created_at": "2026-04-05T14:25:09.739993Z",
+    "subject_id": 1386,
+    "subject_type": "kanji",
+    "meaning_correct": 8,
+    "meaning_incorrect": 0,
+    "meaning_max_streak": 8,
+    "meaning_current_streak": 8,
+    "reading_correct": 8,
+    "reading_incorrect": 0,
+    "reading_max_streak": 8,
+    "reading_current_streak": 8,
+    "percentage_correct": 100,
+    "hidden": false
+   }
+  },
+  {
+   "id": 710679495,
+   "object": "review_statistic",
+   "url": "https://api.wanikani.com/v2/review_statistics/710679495",
+   "data_updated_at": "2026-05-15T14:58:27.613027Z",
+   "data": {
+    "created_at": "2026-04-05T14:25:10.598628Z",
+    "subject_id": 1780,
+    "subject_type": "kanji",
+    "meaning_correct": 8,
+    "meaning_incorrect": 0,
+    "meaning_max_streak": 8,
+    "meaning_current_streak": 8,
+    "reading_correct": 8,
+    "reading_incorrect": 0,
+    "reading_max_streak": 8,
+    "reading_current_streak": 8,
+    "percentage_correct": 100,
+    "hidden": false
+   }
+  },
+  {
+   "id": 710679904,
+   "object": "review_statistic",
+   "url": "https://api.wanikani.com/v2/review_statistics/710679904",
+   "data_updated_at": "2026-04-05T14:25:10.888025Z",
+   "data": {
+    "created_at": "2026-04-05T14:25:10.888025Z",
+    "subject_id": 9220,
+    "subject_type": "kana_vocabulary",
+    "meaning_correct": 13,
+    "meaning_incorrect": 5,
+    "meaning_max_streak": 9,
+    "meaning_current_streak": 9,
+    "reading_correct": 13,
+    "reading_incorrect": 0,
+    "reading_max_streak": 13,
+    "reading_current_streak": 13,
+    "percentage_correct": 84,
+    "hidden": false
+   }
+  },
+  {
+   "id": 710681089,
+   "object": "review_statistic",
+   "url": "https://api.wanikani.com/v2/review_statistics/710681089",
+   "data_updated_at": "2026-05-25T14:01:07.704570Z",
+   "data": {
+    "created_at": "2026-04-05T14:25:11.206926Z",
+    "subject_id": 2169,
+    "subject_type": "kanji",
+    "meaning_correct": 18,
+    "meaning_incorrect": 3,
+    "meaning_max_streak": 10,
+    "meaning_current_streak": 10,
+    "reading_correct": 18,
+    "reading_incorrect": 2,
+    "reading_max_streak": 9,
+    "reading_current_streak": 9,
+    "percentage_correct": 88,
+    "hidden": false
+   }
+  },
+  {
+   "id": 710681675,
+   "object": "review_statistic",
+   "url": "https://api.wanikani.com/v2/review_statistics/710681675",
+   "data_updated_at": "2026-10-08T13:31:16.041620Z",
+   "data": {
+    "created_at": "2026-04-05T14:25:11.384748Z",
+    "subject_id": 2319,
+    "subject_type": "kanji",
+    "meaning_correct": 24,
+    "meaning_incorrect": 6,
+    "meaning_max_streak": 6,
+    "meaning_current_streak": 2,
+    "reading_correct": 24,
+    "reading_incorrect": 2,
+    "reading_max_streak": 12,
+    "reading_current_streak": 7,
+    "percentage_correct": 86,
+    "hidden": false
+   }
+  }
+ ]
+}

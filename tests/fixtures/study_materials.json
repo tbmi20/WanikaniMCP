@@ -1,0 +1,47 @@
+{
+ "object": "collection",
+ "url": "https://api.wanikani.com/v2/study_materials?subject_ids=38%2C43%2C60%2C120%2C177%2C188%2C261%2C421%2C788%2C809%2C864%2C891%2C933%2C1052%2C1119%2C1140%2C1354%2C1356%2C1370%2C1386%2C1780%2C2169%2C2319%2C3270%2C4446%2C9220",
+ "pages": {
+  "per_page": 500,
+  "next_url": null,
+  "previous_url": null
+ },
+ "total_count": 2,
+ "data_updated_at": "2026-04-05T14:25:07.661212Z",
+ "data": [
+  {
+   "id": 29549542,
+   "object": "study_material",
+   "url": "https://api.wanikani.com/v2/study_materials/29549542",
+   "data_updated_at": "2026-04-05T14:25:07.661212Z",
+   "data": {
+    "created_at": "2026-04-05T14:25:07.661212Z",
+    "subject_id": 788,
+    "subject_type": "kanji",
+    "meaning_note": "",
+    "reading_note": "",
+    "meaning_synonyms": [
+     "hard work"
+    ],
+    "hidden": false
+   }
+  },
+  {
+   "id": 29549586,
+   "object": "study_material",
+   "url": "https://api.wanikani.com/v2/study_materials/29549586",
+   "data_updated_at": "2026-04-05T14:25:07.661212Z",
+   "data": {
+    "created_at": "2026-04-05T14:25:07.661212Z",
+    "subject_id": 1370,
+    "subject_type": "kanji",
+    "meaning_note": "",
+    "reading_note": "",
+    "meaning_synonyms": [
+     "purity"
+    ],
+    "hidden": false
+   }
+  }
+ ]
+}

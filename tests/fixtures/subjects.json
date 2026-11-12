@@ -1,0 +1,2307 @@
+{
+ "object": "collection",
+ "url": "https://api.wanikani.com/v2/subjects?ids=38%2C43%2C60%2C120%2C177%2C188%2C261%2C421%2C788%2C809%2C864%2C891%2C933%2C1052%2C1119%2C1140%2C1354%2C1356%2C1370%2C1386%2C1780%2C2169%2C2319%2C3270%2C4446%2C9220",
+ "pages": {
+  "per_page": 1000,
+  "next_url": null,
+  "previous_url": null
+ },
+ "total_count": 26,
+ "data_updated_at": "2026-11-11T16:27:14.163485Z",
+ "data": [
+  {
+   "id": 38,
+   "object": "radical",
+   "url": "https://api.wanikani.com/v2/subjects/38",
+   "data_updated_at": "2026-10-02T00:07:31.186411Z",
+   "data": {
+    "created_at": "2012-02-28T21:13:17.000000Z",
+    "level": 2,
+    "slug": "hair",
+    "hidden_at": null,
+    "document_url": "https://www.wanikani.com/radicals/hair",
+    "characters": "彡",
+    "character_images": [
+     {
+      "url": "https://files.wanikani.com/cj1wofb4iv6ek6y9kuq6853xsv6e",
+      "metadata": {
+       "inline_styles": true
+      },
+      "content_type": "image/svg+xml"
+     },
+     {
+      "url": "https://files.wanikani.com/hsw7r6nrgxbt4ehrrpbqrl6stz03",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "1024x1024",
+       "style_name": "original"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/ghni0q468kn8eanq8ypdg4g2by3n",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "1024x1024",
+       "style_name": "1024px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/265x2gxnst1z65mq1zup9kv8coye",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "512x512",
+       "style_name": "512px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/espxwkm0t5ee0ae4q6g3m3qexk6j",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "256x256",
+       "style_name": "256px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/sse98hjrz2azun6rnsm14lg7nsdv",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "128x128",
+       "style_name": "128px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/y0m2lr650mgdrv9fm62on2prjzj0",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "64x64",
+       "style_name": "64px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/sy776tvzynyak3r5k186dji0sigl",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "32x32",
+       "style_name": "32px"
+      },
+      "content_type": "image/png"
+     }
+    ],
+    "meanings": [
+     {
+      "meaning": "Hair",
+      "primary": true,
+      "accepted_answer": true
+     }
+    ],
+    "auxiliary_meanings": [],
+    "amalgamation_subject_ids": [
+     589,
+     772,
+     899,
+     1251,
+     1360,
+     1374,
+     1390,
+     1580,
+     1596,
+     1838,
+     1894,
+     2028,
+     2094,
+     2169,
+     2174,
+     2207
+    ],
+    "meaning_mnemonic": "These three streaks look like the flowing locks of someone's <radical>hair</radical>. Pretty easy to see and remember that this is the hair radical, right?",
+    "lesson_position": 14,
+    "spaced_repetition_system_id": 2
+   }
+  },
+  {
+   "id": 43,
+   "object": "radical",
+   "url": "https://api.wanikani.com/v2/subjects/43",
+   "data_updated_at": "2026-10-14T18:45:41.172385Z",
+   "data": {
+    "created_at": "2012-02-28T21:15:35.000000Z",
+    "level": 2,
+    "slug": "moon",
+    "hidden_at": null,
+    "document_url": "https://www.wanikani.com/radicals/moon",
+    "characters": "月",
+    "character_images": [
+     {
+      "url": "https://files.wanikani.com/fvmi8re2a6pei59o1w8f466n6ji5",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "1024x1024",
+       "style_name": "original"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/cjn7b33n89q00b1s2xk8v3mk4nch",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "1024x1024",
+       "style_name": "1024px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/8j3mf0hozidk5movsdw33ulixu6d",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "512x512",
+       "style_name": "512px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/je89mnis7oepm52uey6mxfphovww",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "256x256",
+       "style_name": "256px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/yorn8yk6xp7cisqbystxh4hs8tko",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "128x128",
+       "style_name": "128px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/6gcu3p0rddzjkhwu10b1vw7hnxvd",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "64x64",
+       "style_name": "64px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/6g76ghrajnncask70m9fv01el702",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "32x32",
+       "style_name": "32px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/bjpiycmd2rqz9ycqb26yby2dsbmp",
+      "metadata": {
+       "inline_styles": true
+      },
+      "content_type": "image/svg+xml"
+     }
+    ],
+    "meanings": [
+     {
+      "meaning": "Moon",
+      "primary": true,
+      "accepted_answer": true
+     }
+    ],
+    "auxiliary_meanings": [],
+    "amalgamation_subject_ids": [
+     477,
+     615,
+     633,
+     695,
+     716,
+     738,
+     795,
+     819,
+     823,
+     839,
+     881,
+     908,
+     921,
+     924,
+     1044,
+     1045,
+     1157,
+     1173,
+     1226,
+     1227,
+     1228,
+     1272,
+     1309,
+     1317,
+     1440,
+     1466,
+     1468,
+     1518,
+     1537,
+     1546,
+     1606,
+     1651,
+     1668,
+     1776,
+     1778,
+     1833,
+     1848,
+     1849,
+     1900,
+     1908,
+     1916,
+     2009,
+     2035,
+     2041,
+     2130,
+     2131,
+     2141,
+     2157,
+     2169,
+     2183,
+     2191,
+     2198,
+     2217,
+     2284,
+     2333,
+     2351,
+     2353,
+     2374,
+     2384,
+     2425,
+     2454,
+     8861,
+     8964,
+     9312,
+     9447,
+     9449
+    ],
+    "meaning_mnemonic": "This is the <radical>moon</radical> radical. See how it looks like a crescent moon with a couple of little clouds floating by? Try not to mix this up with the evening radical 夕 — you can see the whole crescent moon this time, so obviously this should be the radical for moon!",
+    "lesson_position": 19,
+    "spaced_repetition_system_id": 2
+   }
+  },
+  {
+   "id": 60,
+   "object": "radical",
+   "url": "https://api.wanikani.com/v2/subjects/60",
+   "data_updated_at": "2026-10-02T00:07:31.186411Z",
+   "data": {
+    "created_at": "2012-03-01T01:54:32.000000Z",
+    "level": 3,
+    "slug": "winter",
+    "hidden_at": null,
+    "document_url": "https://www.wanikani.com/radicals/winter",
+    "characters": "夂",
+    "character_images": [
+     {
+      "url": "https://files.wanikani.com/tvoizyfox3d46dnh7ci9sxehhd8u",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "1024x1024",
+       "style_name": "original"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/2r4g6jviikvfzb3dlb8lblj77h9j",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "1024x1024",
+       "style_name": "1024px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/gdxagwocc4u3ypd087q66o1p8kjy",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "512x512",
+       "style_name": "512px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/rrldg3yjg9h2fcpvfh92bnsaw45p",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "256x256",
+       "style_name": "256px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/5ot250043g9batyiwm2vff0kqbnc",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "128x128",
+       "style_name": "128px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/0grbfpr8qicbl7u5xv1v1v7jwzu0",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "64x64",
+       "style_name": "64px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/z0nt2c2jsut7n7se7g2cg4zlzr7b",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "32x32",
+       "style_name": "32px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/94ziewv4ewsg6fu27phogr8xn5xo",
+      "metadata": {
+       "inline_styles": true
+      },
+      "content_type": "image/svg+xml"
+     }
+    ],
+    "meanings": [
+     {
+      "meaning": "Winter",
+      "primary": true,
+      "accepted_answer": true
+     }
+    ],
+    "auxiliary_meanings": [],
+    "amalgamation_subject_ids": [
+     516,
+     598,
+     636,
+     659,
+     668,
+     703,
+     723,
+     745,
+     791,
+     863,
+     944,
+     985,
+     1004,
+     1021,
+     1023,
+     1051,
+     1082,
+     1123,
+     1129,
+     1145,
+     1206,
+     1209,
+     1291,
+     1295,
+     1301,
+     1354,
+     1360,
+     1366,
+     1378,
+     1458,
+     1465,
+     1466,
+     1502,
+     1526,
+     1548,
+     1682,
+     1712,
+     1757,
+     1759,
+     1764,
+     1776,
+     1778,
+     1780,
+     1846,
+     1858,
+     1982,
+     2220,
+     2253,
+     2256,
+     2263,
+     2350,
+     2366,
+     2430
+    ],
+    "meaning_mnemonic": "This is the radical for <radical>winter</radical>. It looks like a skier going downhill (to the left), with their skis out in front and their poles out behind them. And when do people ski? In winter!\n\nYou could also remember this as looking like the evening radical but with an extra long stroke, since the evenings are long in winter. It gets dark early in winter, you know?",
+    "lesson_position": 7,
+    "spaced_repetition_system_id": 1
+   }
+  },
+  {
+   "id": 120,
+   "object": "radical",
+   "url": "https://api.wanikani.com/v2/subjects/120",
+   "data_updated_at": "2026-10-02T00:07:31.186411Z",
+   "data": {
+    "created_at": "2012-03-03T04:09:52.000000Z",
+    "level": 5,
+    "slug": "blue",
+    "hidden_at": null,
+    "document_url": "https://www.wanikani.com/radicals/blue",
+    "characters": "青",
+    "character_images": [
+     {
+      "url": "https://files.wanikani.com/jcpfob8gkk168ou7q1lxi1885xd6",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "1024x1024",
+       "style_name": "original"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/kne4zedu8qgfeeepoqgnt4jjfp4w",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "1024x1024",
+       "style_name": "1024px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/7dekuseefvrqefmmrsf8qfwzo315",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "512x512",
+       "style_name": "512px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/glfj6eblyiuh1kx8in1ztavjb0yv",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "256x256",
+       "style_name": "256px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/vcknj1u07xyafig97skyz7ifwe95",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "128x128",
+       "style_name": "128px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/bohoh5yl7h1qj9p0wqv77c7l1nym",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "64x64",
+       "style_name": "64px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/pcfe2ka9bb1a2ihwdl4mhjaslgep",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "32x32",
+       "style_name": "32px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/c4z5sits0hu8gw71z17uo1frp48q",
+      "metadata": {
+       "inline_styles": true
+      },
+      "content_type": "image/svg+xml"
+     }
+    ],
+    "meanings": [
+     {
+      "meaning": "Blue",
+      "primary": true,
+      "accepted_answer": true
+     }
+    ],
+    "auxiliary_meanings": [],
+    "amalgamation_subject_ids": [
+     604,
+     891,
+     933,
+     1052,
+     1356,
+     1370,
+     1386,
+     2319
+    ],
+    "meaning_mnemonic": "If you find a rib cage on the moon, it'll probably be <radical>blue</radical>. Why? 'Cause it would have to come from one of the moon's inhabitants (the Moon People), and they're all blue — you know, due to the frigid temperatures and lack of oxygen and stuff.",
+    "lesson_position": 30,
+    "spaced_repetition_system_id": 1
+   }
+  },
+  {
+   "id": 177,
+   "object": "radical",
+   "url": "https://api.wanikani.com/v2/subjects/177",
+   "data_updated_at": "2026-10-29T18:53:28.302541Z",
+   "data": {
+    "created_at": "2012-04-23T23:47:54.000000Z",
+    "level": 7,
+    "slug": "table",
+    "hidden_at": null,
+    "document_url": "https://www.wanikani.com/radicals/table",
+    "characters": "几",
+    "character_images": [
+     {
+      "url": "https://files.wanikani.com/nsprjc375ogcl21opxxzn1nc5hjo",
+      "metadata": {
+       "inline_styles": true
+      },
+      "content_type": "image/svg+xml"
+     },
+     {
+      "url": "https://files.wanikani.com/lyrih86gx1ozsph0m1e0bs5i74fc",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "1024x1024",
+       "style_name": "original"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/tq6dcherbjs6la50w6dms352u7cy",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "1024x1024",
+       "style_name": "1024px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/a7jp6debaelfgwrc8gy85xfgv5g0",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "512x512",
+       "style_name": "512px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/q0tps3nxxitb73o0164ra3d34tl2",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "256x256",
+       "style_name": "256px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/wqpdb0y750jlm8f48m6tjd726ob6",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "128x128",
+       "style_name": "128px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/78b2pgacs5tery98vmcxg0271xkf",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "64x64",
+       "style_name": "64px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/eps3rtx92knjhkn7dkwvypjfnn83",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "32x32",
+       "style_name": "32px"
+      },
+      "content_type": "image/png"
+     }
+    ],
+    "meanings": [
+     {
+      "meaning": "Table",
+      "primary": true,
+      "accepted_answer": true
+     }
+    ],
+    "auxiliary_meanings": [],
+    "amalgamation_subject_ids": [
+     853,
+     993,
+     1354,
+     1397,
+     1509,
+     1654,
+     1780,
+     1908,
+     2021,
+     2301,
+     2376,
+     2389,
+     2439
+    ],
+    "meaning_mnemonic": "What happens when you put a flat surface on top of a pair of legs? You get a <radical>table</radical>.",
+    "lesson_position": 17,
+    "spaced_repetition_system_id": 1
+   }
+  },
+  {
+   "id": 188,
+   "object": "radical",
+   "url": "https://api.wanikani.com/v2/subjects/188",
+   "data_updated_at": "2026-10-14T18:45:41.172385Z",
+   "data": {
+    "created_at": "2012-04-26T00:16:51.000000Z",
+    "level": 9,
+    "slug": "heavy",
+    "hidden_at": null,
+    "document_url": "https://www.wanikani.com/radicals/heavy",
+    "characters": "重",
+    "character_images": [
+     {
+      "url": "https://files.wanikani.com/qek7d9hvzjbalntt28ofal2pyivb",
+      "metadata": {
+       "inline_styles": true
+      },
+      "content_type": "image/svg+xml"
+     },
+     {
+      "url": "https://files.wanikani.com/zv0yly3dnac1b46du3xapbjerse5",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "1024x1024",
+       "style_name": "original"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/ji58pp8ukpnr5tu5cjedv8ng7vbg",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "1024x1024",
+       "style_name": "1024px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/v8id6v2j50rwm080isdd88r6be1o",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "512x512",
+       "style_name": "512px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/sgwposfr2h57wsg4x3fkcncn5dst",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "256x256",
+       "style_name": "256px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/waipfx4dlx3c47mpbg6ghkasedij",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "128x128",
+       "style_name": "128px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/gb484y1oodwbqo76ugwoytrftyue",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "64x64",
+       "style_name": "64px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/oip0a8s7r6o6y38ypyxshwfgaeg4",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "32x32",
+       "style_name": "32px"
+      },
+      "content_type": "image/png"
+     }
+    ],
+    "meanings": [
+     {
+      "meaning": "Heavy",
+      "primary": true,
+      "accepted_answer": true
+     }
+    ],
+    "auxiliary_meanings": [],
+    "amalgamation_subject_ids": [
+     735,
+     809,
+     827,
+     1032,
+     1768,
+     2230,
+     9447
+    ],
+    "meaning_mnemonic": "This is the <radical>heavy</radical> radical. See the square fist in the center, grasping the handle of a dumbbell that has two heavy plates on the top and bottom? The radical just looks like it would be heavy, you know?",
+    "lesson_position": 9,
+    "spaced_repetition_system_id": 1
+   }
+  },
+  {
+   "id": 261,
+   "object": "radical",
+   "url": "https://api.wanikani.com/v2/subjects/261",
+   "data_updated_at": "2026-10-26T03:45:51.415684Z",
+   "data": {
+    "created_at": "2012-10-31T23:39:22.107823Z",
+    "level": 18,
+    "slug": "conflict",
+    "hidden_at": null,
+    "document_url": "https://www.wanikani.com/radicals/conflict",
+    "characters": "争",
+    "character_images": [
+     {
+      "url": "https://files.wanikani.com/r8eu5x6v9dd7wndw81kwipv6qcwg",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "1024x1024",
+       "style_name": "original"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/b5cn2pk730ie8kcvwmhj7iqvmcvk",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "1024x1024",
+       "style_name": "1024px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/6dq6o2dh1lncetohum7yo3u2iabu",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "512x512",
+       "style_name": "512px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/0ak2v7hag4rl0pecwthltqy7k8cp",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "256x256",
+       "style_name": "256px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/75wgw8plj37liv6wko29aar8a8hn",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "128x128",
+       "style_name": "128px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/zzyjinoph6a541hmx7rwjm9surjv",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "64x64",
+       "style_name": "64px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/dykvpvi0s85lh9tttshtcro3jvel",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "32x32",
+       "style_name": "32px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/ozb6kv8abnv7ahdgszqmtgmlpflq",
+      "metadata": {
+       "inline_styles": true
+      },
+      "content_type": "image/svg+xml"
+     }
+    ],
+    "meanings": [
+     {
+      "meaning": "Conflict",
+      "primary": true,
+      "accepted_answer": true
+     }
+    ],
+    "auxiliary_meanings": [],
+    "amalgamation_subject_ids": [
+     1052,
+     2192
+    ],
+    "meaning_mnemonic": "This radical is the same as the kanji. It means <radical>conflict</radical>.",
+    "lesson_position": 5,
+    "spaced_repetition_system_id": 1
+   }
+  },
+  {
+   "id": 421,
+   "object": "radical",
+   "url": "https://api.wanikani.com/v2/subjects/421",
+   "data_updated_at": "2026-10-02T00:07:31.186411Z",
+   "data": {
+    "created_at": "2015-06-26T22:25:15.945810Z",
+    "level": 16,
+    "slug": "drum",
+    "hidden_at": null,
+    "document_url": "https://www.wanikani.com/radicals/drum",
+    "characters": "壴",
+    "character_images": [
+     {
+      "url": "https://files.wanikani.com/1gvp8mt2ieatfwkyohghd701g19n",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "1024x1024",
+       "style_name": "original"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/r99o1swoyra2e782kahyfrscpzub",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "1024x1024",
+       "style_name": "1024px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/q41197opexerfhef6w5x50kb398n",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "512x512",
+       "style_name": "512px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/ynejknu0536dkwwhynqyu2gag3w7",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "256x256",
+       "style_name": "256px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/25mclkqzm2gyxsco2895njepi4co",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "128x128",
+       "style_name": "128px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/96kxj3swt3da4qaaulpmflykeamb",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "64x64",
+       "style_name": "64px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/s7sl3ww2y4by9edjve9hx5cw7x46",
+      "metadata": {
+       "color": "#000000",
+       "dimensions": "32x32",
+       "style_name": "32px"
+      },
+      "content_type": "image/png"
+     },
+     {
+      "url": "https://files.wanikani.com/w7lj8n266ce38d8uae635eo2rnzz",
+      "metadata": {
+       "inline_styles": true
+      },
+      "content_type": "image/svg+xml"
+     }
+    ],
+    "meanings": [
+     {
+      "meaning": "Drum",
+      "primary": true,
+      "accepted_answer": true
+     }
+    ],
+    "auxiliary_meanings": [],
+    "amalgamation_subject_ids": [
+     976,
+     1782,
+     2169,
+     2320,
+     2331
+    ],
+    "meaning_mnemonic": "See the samurai on top of the giant bean? He's standing over it and using it as a <radical>drum</radical>. Back in the day, samurai used drums to communicate and amp themselves up in battle, and when things were desperate, any ol' giant bean would do. Can you imagine a samurai drumming out a war beat on a giant bean drum?",
+    "lesson_position": 6,
+    "spaced_repetition_system_id": 1
+   }
+  },
+  {
+   "id": 788,
+   "object": "kanji",
+   "url": "https://api.wanikani.com/v2/subjects/788",
+   "data_updated_at": "2026-10-02T00:07:31.186411Z",
+   "data": {
+    "created_at": "2012-04-26T06:09:20.000000Z",
+    "level": 11,
+    "slug": "労",
+    "hidden_at": null,
+    "document_url": "https://www.wanikani.com/kanji/%E5%8A%B4",
+    "characters": "労",
+    "meanings": [
+     {
+      "meaning": "Labor",
+      "primary": true,
+      "accepted_answer": true
+     }
+    ],
+    "auxiliary_meanings": [
+     {
+      "meaning": "Labour",
+      "type": "whitelist"
+     }
+    ],
+    "readings": [
+     {
+      "reading": "ろう",
+      "primary": true,
+      "accepted_answer": true,
+      "type": "onyomi"
+     },
+     {
+      "reading": "いたわ",
+      "primary": false,
+      "accepted_answer": false,
+      "type": "kunyomi"
+     }
+    ],
+    "component_subject_ids": [
+     8769,
+     13
+    ],
+    "amalgamation_subject_ids": [
+     3270,
+     3271,
+     3272,
+     6900
+    ],
+    "visually_similar_subject_ids": [],
+    "meaning_mnemonic": "A <radical>Viking</radical> in a position of <radical>power</radical> does not need to <kanji>labor</kanji> in the fields. Labor is for the weak! A Viking of power takes what he wants, and need not labor for it. A powerful Viking plunders all and takes what he wants!",
+    "meaning_hint": "Imagine yourself as a powerful Viking. You have the power to take anything you want, pillaging and plundering to your heart’s content. Imagine all the things you would acquire with this sort of power.\n\nNote - there are a few other kanji that have a similar meaning to this one. This kanji is used in words related to physical, or manual labor, with an emphasis on how darn tiring it is!",
+    "reading_mnemonic": "It takes a lot of <kanji>labor</kanji> to harvest <reading>roe</reading> (ろう) so that’s what the Viking decides to take first! Roe is delicious, but it’s small and delicate. Vikings don’t labor for their own roe! They take it and eat it!",
+    "reading_hint": "Picture this powerful Viking laying siege on a small fishing village and taking all the roe and stuffing it into his bearded face. So much labor went into harvesting that roe! Vikings are so mean!",
+    "lesson_position": 28,
+    "spaced_repetition_system_id": 1
+   }
+  },
+  {
+   "id": 809,
+   "object": "kanji",
+   "url": "https://api.wanikani.com/v2/subjects/809",
+   "data_updated_at": "2026-10-02T00:07:31.186411Z",
+   "data": {
+    "created_at": "2012-04-26T06:24:37.000000Z",
+    "level": 11,
+    "slug": "働",
+    "hidden_at": null,
+    "document_url": "https://www.wanikani.com/kanji/%E5%83%8D",
+    "characters": "働",
+    "meanings": [
+     {
+      "meaning": "Work",
+      "primary": true,
+      "accepted_answer": true
+     }
+    ],
+    "auxiliary_meanings": [
+     {
+      "meaning": "Labour",
+      "type": "whitelist"
+     },
+     {
+      "meaning": "Labor",
+      "type": "whitelist"
+     }
+    ],
+    "readings": [
+     {
+      "reading": "どう",
+      "primary": true,
+      "accepted_answer": true,
+      "type": "onyomi"
+     },
+     {
+      "reading": "はたら",
+      "primary": false,
+      "accepted_answer": false,
+      "type": "kunyomi"
+     }
+    ],
+    "component_subject_ids": [
+     75,
+     188,
+     13
+    ],
+    "amalgamation_subject_ids": [
+     3270,
+     3272,
+     3316
+    ],
+    "visually_similar_subject_ids": [
+     827,
+     1723
+    ],
+    "meaning_mnemonic": "Your <radical>leader</radical> makes you lift <radical>heavy</radical> loads with all your <radical>power</radical>, since this is what you do for <kanji>work</kanji>. Why do you do this kind of work? Well, you're good at it and the leader makes you do it, I guess.",
+    "meaning_hint": "Picture this leader asking you (yet again) to work for them. \"Can you move those heavy objects with all that power of yours?\" Typical leader — as soon as they know you're good at a certain kind of work, they ask you to do it all the time. \n\nNote: There are a few other kanji that have a similar meaning to this one. This kanji is used in words that refer to doing work, with a focus on movement or operating something.",
+    "reading_mnemonic": "Where do you get the power to do all this <kanji>work</kanji>? From <reading>dou</reading>ghnuts (どう). You eat nothing but doughnuts. If you had no doughnuts, you couldn't work. In fact, your leader pays you for your work… in doughnuts.",
+    "reading_hint": "Picture yourself receiving a doughnut as payment after you've been working. It's delicious. Doughnuts are fantastic. Taste the fresh doughnut in your mouth as it crumbles and melts on your tongue. It's the best doughnut you've ever had.",
+    "lesson_position": 50,
+    "spaced_repetition_system_id": 1
+   }
+  },
+  {
+   "id": 864,
+   "object": "kanji",
+   "url": "https://api.wanikani.com/v2/subjects/864",
+   "data_updated_at": "2026-10-26T03:53:56.269463Z",
+   "data": {
+    "created_at": "2012-08-28T07:53:52.525916Z",
+    "level": 13,
+    "slug": "暗",
+    "hidden_at": null,
+    "document_url": "https://www.wanikani.com/kanji/%E6%9A%97",
+    "characters": "暗",
+    "meanings": [
+     {
+      "meaning": "Dark",
+      "primary": true,
+      "accepted_answer": true
+     }
+    ],
+    "auxiliary_meanings": [],
+    "readings": [
+     {
+      "reading": "あん",
+      "primary": true,
+      "accepted_answer": true,
+      "type": "onyomi"
+     },
+     {
+      "reading": "くら",
+      "primary": false,
+      "accepted_answer": false,
+      "type": "kunyomi"
+     },
+     {
+      "reading": "くれ",
+      "primary": false,
+      "accepted_answer": false,
+      "type": "kunyomi"
+     }
+    ],
+    "component_subject_ids": [
+     22,
+     197
+    ],
+    "amalgamation_subject_ids": [
+     3597,
+     3598,
+     3599,
+     3904,
+     7179,
+     8562
+    ],
+    "visually_similar_subject_ids": [
+     891,
+     1386,
+     1356,
+     1052,
+     1370,
+     2319,
+     933
+    ],
+    "meaning_mnemonic": "If the <radical>sun</radical> starts to make a <radical>sound</radical>, you know it's about to go <kanji>dark</kanji>. The sun isn't supposed to make a sound, so if you can hear it, it's probably about to fizzle out or something. After it's gone, obviously everything will be pitch black. Get ready to be in the dark!",
+    "meaning_hint": "Imagine a weird sound coming from the sun. Maybe a rumble, or something like a balloon deflating? Then everything goes totally dark. Welp, guess you'll be living in the dark for the rest of your life. ",
+    "reading_mnemonic": "Now wandering around your house in the <kanji>dark</kanji> you start to feel hungry, so you reach blindly for some food and take a bite. Yuck! It's <reading>an</reading>chovies (あん). You don't even like anchovies, how did they get in your house? Hmm… Dark forces are at work here…",
+    "reading_hint": "And because it's so dark, the anchovy taste is all you can concentrate on. Imagine that fishy, salty taste on your tongue, the little softened bones sticking between your teeth. Ugh.",
+    "lesson_position": 22,
+    "spaced_repetition_system_id": 1
+   }
+  },
+  {
+   "id": 891,
+   "object": "kanji",
+   "url": "https://api.wanikani.com/v2/subjects/891",
+   "data_updated_at": "2026-10-26T03:53:56.531221Z",
+   "data": {
+    "created_at": "2012-08-28T08:11:14.572178Z",
+    "level": 13,
+    "slug": "情",
+    "hidden_at": null,
+    "document_url": "https://www.wanikani.com/kanji/%E6%83%85",
+    "characters": "情",
+    "meanings": [
+     {
+      "meaning": "Feeling",
+      "primary": true,
+      "accepted_answer": true
+     },
+     {
+      "meaning": "Emotion",
+      "primary": false,
+      "accepted_answer": true
+     }
+    ],
+    "auxiliary_meanings": [],
+    "readings": [
+     {
+      "reading": "じょう",
+      "primary": true,
+      "accepted_answer": true,
+      "type": "onyomi"
+     },
+     {
+      "reading": "なさ",
+      "primary": false,
+      "accepted_answer": false,
+      "type": "kunyomi"
+     }
+    ],
+    "component_subject_ids": [
+     232,
+     120
+    ],
+    "amalgamation_subject_ids": [
+     3539,
+     3540,
+     3541,
+     3542,
+     3611,
+     4089,
+     6436,
+     7538,
+     7640,
+     7953,
+     8078,
+     8672
+    ],
+    "visually_similar_subject_ids": [
+     864,
+     1386,
+     1356,
+     1052,
+     1370,
+     2319,
+     933,
+     918
+    ],
+    "meaning_mnemonic": "Your <radical>soul</radical> is <radical>blue</radical>. As in, it's sad and not feeling well. This is because your soul changes colors depending on your <kanji>feeling</kanji>s or what <kanji>emotion</kanji>s you're expressing.",
+    "meaning_hint": "Start with a blue soul. What feeling is that? Now a red soul. What emotion is that? Go through as many colors as you can think of, focusing on the fact that each color represents a different emotion or feeling.",
+    "reading_mnemonic": "Why is your soul <kanji>feeling</kanji> blue? Because <reading>Joe</reading> (じょう), the big local farmhand, was extremely mean to you. ",
+    "reading_hint": "Maybe he was just having a bad day, but that still really hurt… and now your soul’s all blue too. Seems you’ll have to walk around with a blue soul for the next few days.",
+    "lesson_position": 47,
+    "spaced_repetition_system_id": 1
+   }
+  },
+  {
+   "id": 933,
+   "object": "kanji",
+   "url": "https://api.wanikani.com/v2/subjects/933",
+   "data_updated_at": "2026-10-02T00:07:31.186411Z",
+   "data": {
+    "created_at": "2012-09-19T22:43:41.687268Z",
+    "level": 15,
+    "slug": "晴",
+    "hidden_at": null,
+    "document_url": "https://www.wanikani.com/kanji/%E6%99%B4",
+    "characters": "晴",
+    "meanings": [
+     {
+      "meaning": "Clear Up",
+      "primary": true,
+      "accepted_answer": true
+     }
+    ],
+    "auxiliary_meanings": [
+     {
+      "meaning": "Clear Weather",
+      "type": "whitelist"
+     }
+    ],
+    "readings": [
+     {
+      "reading": "は",
+      "primary": true,
+      "accepted_answer": true,
+      "type": "kunyomi"
+     },
+     {
+      "reading": "せい",
+      "primary": false,
+      "accepted_answer": false,
+      "type": "onyomi"
+     }
+    ],
+    "component_subject_ids": [
+     22,
+     120
+    ],
+    "amalgamation_subject_ids": [
+     3767,
+     4441,
+     8707
+    ],
+    "visually_similar_subject_ids": [
+     864,
+     891,
+     1386,
+     1356,
+     1052,
+     1370,
+     2319
+    ],
+    "meaning_mnemonic": "The <radical>sun</radical> is out, the sky is <radical>blue</radical>, things have begun to <kanji>clear up</kanji>!",
+    "meaning_hint": "Look into the blue sky and imagine the clouds parting as the weather clears up and the sun starts to come out. Gorgeous! The beauty is so great you have to squint.",
+    "reading_mnemonic": "When it starts to <kanji>clear up</kanji>, you exclaim, \"<reading>Hah</reading> (は)! Told you so!\" You had a feeling it would clear up, but no one believed you, so now you have to yell \"Hah!\" and rub your correctness in everyone's face.",
+    "reading_hint": "Imagine walking down the street as the weather clears up and saying to everyone you pass, \"Hah! I was right! I knew it would clear up! Hah!\" Basking in the beautiful weather is nice, but basking in feelings of smug superiority is even better.",
+    "lesson_position": 22,
+    "spaced_repetition_system_id": 1
+   }
+  },
+  {
+   "id": 1052,
+   "object": "kanji",
+   "url": "https://api.wanikani.com/v2/subjects/1052",
+   "data_updated_at": "2026-10-26T03:45:51.657857Z",
+   "data": {
+    "created_at": "2012-10-31T23:59:26.031786Z",
+    "level": 18,
+    "slug": "静",
+    "hidden_at": null,
+    "document_url": "https://www.wanikani.com/kanji/%E9%9D%99",
+    "characters": "静",
+    "meanings": [
+     {
+      "meaning": "Quiet",
+      "primary": true,
+      "accepted_answer": true
+     }
+    ],
+    "auxiliary_meanings": [],
+    "readings": [
+     {
+      "reading": "せい",
+      "primary": true,
+      "accepted_answer": true,
+      "type": "onyomi"
+     },
+     {
+      "reading": "しず",
+      "primary": false,
+      "accepted_answer": false,
+      "type": "kunyomi"
+     }
+    ],
+    "component_subject_ids": [
+     120,
+     261
+    ],
+    "amalgamation_subject_ids": [
+     4155,
+     4156,
+     4157,
+     4366,
+     5122,
+     8131,
+     8269,
+     8591
+    ],
+    "visually_similar_subject_ids": [
+     864,
+     891,
+     1386,
+     1356,
+     1370,
+     2319,
+     933
+    ],
+    "meaning_mnemonic": "Within the <radical>blue</radical> water, a <radical>conflict</radical> stirs, but is made <kanji>quiet</kanji> by the muffling power of liquid. Under this blue water is a great conflict between two sea monsters, but on the surface it appears peaceful and quiet as the water prevents sound from rising above the surface.",
+    "meaning_hint": "Imagine watching this conflict from above the blue water on a boat. You can kind of see the action, but you can't hear a thing.",
+    "reading_mnemonic": "As you watch below the <kanji>quiet</kanji> water, every once in a while a <reading>sa</reading>ber (せい) breaches the surface and quietly slices back down.",
+    "reading_hint": "Sabers are sharp, curved, and totally quiet. Great for underwater blue conflicts, and sneaky assassinations. ",
+    "lesson_position": 31,
+    "spaced_repetition_system_id": 1
+   }
+  },
+  {
+   "id": 1119,
+   "object": "kanji",
+   "url": "https://api.wanikani.com/v2/subjects/1119",
+   "data_updated_at": "2026-10-02T00:07:31.186411Z",
+   "data": {
+    "created_at": "2012-11-01T06:42:13.559820Z",
+    "level": 20,
+    "slug": "論",
+    "hidden_at": null,
+    "document_url": "https://www.wanikani.com/kanji/%E8%AB%96",
+    "characters": "論",
+    "meanings": [
+     {
+      "meaning": "Theory",
+      "primary": true,
+      "accepted_answer": true
+     }
+    ],
+    "auxiliary_meanings": [
+     {
+      "meaning": "Argument",
+      "type": "whitelist"
+     }
+    ],
+    "readings": [
+     {
+      "reading": "ろん",
+      "primary": true,
+      "accepted_answer": true,
+      "type": "onyomi"
+     }
+    ],
+    "component_subject_ids": [
+     117,
+     8764,
+     1,
+     226
+    ],
+    "amalgamation_subject_ids": [
+     4327,
+     4328,
+     4329,
+     4331,
+     4446,
+     4968,
+     6727,
+     7294,
+     9096
+    ],
+    "visually_similar_subject_ids": [
+     1221,
+     2206,
+     885
+    ],
+    "meaning_mnemonic": "You <radical>say</radical>, throwing your <radical>hat</radical> on the <radical>ground</radical> in front of the <radical>bookshelf</radical>, \"I have a <kanji>theory</kanji>!\" All this reading and thinking has finally given you a wonderful idea, a theory you think might solve all of your problems!",
+    "meaning_hint": "This theory you've thought of is great, it's going to change everything!",
+    "reading_mnemonic": "\"What is your theory, <reading>Ron</reading> (ろん)?\" asks Hermione. You're Ron Weasley, and you just came up with a theory that you think will help you stop Voldemort.",
+    "reading_hint": "\"Ron? Ron, what's your theory? What's your theory, Ron?\" Hermione asks over and over. But you freeze. You don't remember who you are. \"Hermione, I have a theory that I was just a person learning Japanese, and not a magical boy at all.\" \"Shut up Ron, that's a stupid theory,\" she replies.",
+    "lesson_position": 43,
+    "spaced_repetition_system_id": 1
+   }
+  },
+  {
+   "id": 1140,
+   "object": "kanji",
+   "url": "https://api.wanikani.com/v2/subjects/1140",
+   "data_updated_at": "2026-10-02T00:07:31.186411Z",
+   "data": {
+    "created_at": "2012-12-04T06:22:14.629593Z",
+    "level": 22,
+    "slug": "評",
+    "hidden_at": null,
+    "document_url": "https://www.wanikani.com/kanji/%E8%A9%95",
+    "characters": "評",
+    "meanings": [
+     {
+      "meaning": "Evaluate",
+      "primary": true,
+      "accepted_answer": true
+     }
+    ],
+    "auxiliary_meanings": [
+     {
+      "meaning": "Evaluation",
+      "type": "whitelist"
+     },
+     {
+      "meaning": "Criticize",
+      "type": "whitelist"
+     }
+    ],
+    "readings": [
+     {
+      "reading": "ひょう",
+      "primary": true,
+      "accepted_answer": true,
+      "type": "onyomi"
+     }
+    ],
+    "component_subject_ids": [
+     117,
+     279
+    ],
+    "amalgamation_subject_ids": [
+     4412,
+     4445,
+     4446,
+     4447,
+     8165
+    ],
+    "visually_similar_subject_ids": [
+     1050,
+     1412
+    ],
+    "meaning_mnemonic": "You should <radical>say</radical> \"<radical>peace</radical>\" before you <kanji>evaluate</kanji> a situation. That way everyone will know where you’re coming from. If you’re honest and say \"peace\" before you evaluate a situation out loud, everyone will know where you stand.",
+    "meaning_hint": "What situation would you like to evaluate? Be sure to say \"peace\" before doing so. Imagine yourself doing this out loud and think of what you would say.",
+    "reading_mnemonic": "When you say \"peace,\" you end up making a really bad pun and you hear somebody say “<reading>Heyo</reading>!” (ひょう) You look at the people around you and try to <kanji>evaluate</kanji> who said heyo, but you can’t tell. You start talking again when somebody exclaims “That’s what she said” and another person shouts “Heyo!” once again, but you still can’t evaluate who’s saying these things.",
+    "reading_hint": "Imagine yourself trying to explain a situation you’re about to evaluate and your audience keeps shouting “Heyo!” every other sentence. Imagine how frustrating that would be. Get angry at your rude audience and how much they shout “Heyo.”",
+    "lesson_position": 31,
+    "spaced_repetition_system_id": 1
+   }
+  },
+  {
+   "id": 1354,
+   "object": "kanji",
+   "url": "https://api.wanikani.com/v2/subjects/1354",
+   "data_updated_at": "2026-11-11T16:27:13.994247Z",
+   "data": {
+    "created_at": "2013-01-24T09:14:14.352024Z",
+    "level": 28,
+    "slug": "処",
+    "hidden_at": null,
+    "document_url": "https://www.wanikani.com/kanji/%E5%87%A6",
+    "characters": "処",
+    "meanings": [
+     {
+      "meaning": "Deal With",
+      "primary": true,
+      "accepted_answer": true
+     }
+    ],
+    "auxiliary_meanings": [],
+    "readings": [
+     {
+      "reading": "しょ",
+      "primary": true,
+      "accepted_answer": true,
+      "type": "onyomi"
+     },
+     {
+      "reading": "ところ",
+      "primary": false,
+      "accepted_answer": false,
+      "type": "kunyomi"
+     }
+    ],
+    "component_subject_ids": [
+     60,
+     177
+    ],
+    "amalgamation_subject_ids": [
+     5127,
+     5128,
+     5129,
+     7933
+    ],
+    "visually_similar_subject_ids": [
+     1780
+    ],
+    "meaning_mnemonic": "A <radical>winter</radical> <radical>table</radical> would be an odd thing to <kanji>deal with</kanji>. Winter can be hard to deal with on its own, but turn your table into winter? Just dealing with your food getting cold would be the worst!",
+    "meaning_hint": "Look at this winter table. How are you ever going to deal with it? Just think of your favorite warm food and then imagine it getting cold. Deal with it, dog.",
+    "reading_mnemonic": "This winter table is something you have to <kanji>deal with</kanji>, sure, but what if you just gave it to a circus <reading>show</reading> (しょ)? They like weird stuff like this.",
+    "reading_hint": "Feel the relief of getting rid of this table. No more having to deal with it anymore. The circus show can have it.",
+    "lesson_position": 16,
+    "spaced_repetition_system_id": 1
+   }
+  },
+  {
+   "id": 1356,
+   "object": "kanji",
+   "url": "https://api.wanikani.com/v2/subjects/1356",
+   "data_updated_at": "2026-11-11T16:27:14.014364Z",
+   "data": {
+    "created_at": "2013-01-24T09:15:02.908430Z",
+    "level": 28,
+    "slug": "清",
+    "hidden_at": null,
+    "document_url": "https://www.wanikani.com/kanji/%E6%B8%85",
+    "characters": "清",
+    "meanings": [
+     {
+      "meaning": "Pure",
+      "primary": true,
+      "accepted_answer": true
+     }
+    ],
+    "auxiliary_meanings": [],
+    "readings": [
+     {
+      "reading": "せい",
+      "primary": true,
+      "accepted_answer": true,
+      "type": "onyomi"
+     },
+     {
+      "reading": "しょう",
+      "primary": false,
+      "accepted_answer": true,
+      "type": "onyomi"
+     },
+     {
+      "reading": "しん",
+      "primary": false,
+      "accepted_answer": true,
+      "type": "onyomi"
+     },
+     {
+      "reading": "きよ",
+      "primary": false,
+      "accepted_answer": false,
+      "type": "kunyomi"
+     },
+     {
+      "reading": "し",
+      "primary": false,
+      "accepted_answer": false,
+      "type": "nanori"
+     }
+    ],
+    "component_subject_ids": [
+     103,
+     120
+    ],
+    "amalgamation_subject_ids": [
+     5169,
+     5170,
+     6997,
+     8002
+    ],
+    "visually_similar_subject_ids": [
+     864,
+     891,
+     933,
+     1052,
+     1370,
+     1386,
+     1393,
+     2319,
+     2336
+    ],
+    "meaning_mnemonic": "A <radical>tsunami</radical> that's <radical>blue</radical> is <kanji>pure</kanji>. Some tsunami are other colors, like brown or red because they aren't pure, they'll full of trash and poop and other horrible things. But a blue tsunami is completely pure!",
+    "meaning_hint": "Picture this pure blue tsunami. You can see every crystal clear drop of water in it.",
+    "reading_mnemonic": "Seeing this <kanji>pure</kanji> blue tsunami inspires you to pull out your glowing blue <reading>sa</reading>ber (せい)! As the pure water comes toward you, you take one, long slash!",
+    "reading_hint": "SPLAASHH! The tsunami's pure water splits and it absorbed into your saber. Now it's pure too. And transparent!",
+    "lesson_position": 18,
+    "spaced_repetition_system_id": 1
+   }
+  },
+  {
+   "id": 1370,
+   "object": "kanji",
+   "url": "https://api.wanikani.com/v2/subjects/1370",
+   "data_updated_at": "2026-11-11T16:27:14.163485Z",
+   "data": {
+    "created_at": "2013-01-24T09:30:57.781056Z",
+    "level": 28,
+    "slug": "精",
+    "hidden_at": null,
+    "document_url": "https://www.wanikani.com/kanji/%E7%B2%BE",
+    "characters": "精",
+    "meanings": [
+     {
+      "meaning": "Spirit",
+      "primary": true,
+      "accepted_answer": true
+     },
+     {
+      "meaning": "Pure",
+      "primary": false,
+      "accepted_answer": true
+     }
+    ],
+    "auxiliary_meanings": [
+     {
+      "meaning": "Refined",
+      "type": "whitelist"
+     }
+    ],
+    "readings": [
+     {
+      "reading": "せい",
+      "primary": true,
+      "accepted_answer": true,
+      "type": "onyomi"
+     }
+    ],
+    "component_subject_ids": [
+     98,
+     120
+    ],
+    "amalgamation_subject_ids": [
+     5187,
+     5188,
+     5349,
+     5350,
+     5351,
+     8914,
+     9481
+    ],
+    "visually_similar_subject_ids": [
+     864,
+     891,
+     1386,
+     1356,
+     1052,
+     2319,
+     933
+    ],
+    "meaning_mnemonic": "<radical>Rice</radical> that is <radical>blue</radical> has a strong <kanji>spirit</kanji>. Our spirits are blue, so if you ever see rice (or other food, or even people) that's blue, you know that's their spirit radiating out!",
+    "meaning_hint": "Picture this rice, the pulsing blue spirit of each grain is glowing so bright!",
+    "reading_mnemonic": "You want to see the <kanji>spirit</kanji> up close, so you take your <reading>sa</reading>ber (せい), throw the blue rice in the air, and slice it in half! The rice explodes and blue light fills everything!\n\nThen it's gone.",
+    "reading_hint": "As you release the spirits in the rice, your saber begins to glow blue too. Their spirits are going inside your saber, making it stronger!",
+    "lesson_position": 32,
+    "spaced_repetition_system_id": 1
+   }
+  },
+  {
+   "id": 1386,
+   "object": "kanji",
+   "url": "https://api.wanikani.com/v2/subjects/1386",
+   "data_updated_at": "2026-10-02T00:07:31.186411Z",
+   "data": {
+    "created_at": "2013-01-24T19:02:33.896341Z",
+    "level": 29,
+    "slug": "請",
+    "hidden_at": null,
+    "document_url": "https://www.wanikani.com/kanji/%E8%AB%8B",
+    "characters": "請",
+    "meanings": [
+     {
+      "meaning": "Request",
+      "primary": true,
+      "accepted_answer": true
+     }
+    ],
+    "auxiliary_meanings": [],
+    "readings": [
+     {
+      "reading": "せい",
+      "primary": true,
+      "accepted_answer": true,
+      "type": "onyomi"
+     },
+     {
+      "reading": "しん",
+      "primary": false,
+      "accepted_answer": true,
+      "type": "onyomi"
+     },
+     {
+      "reading": "しょう",
+      "primary": false,
+      "accepted_answer": true,
+      "type": "onyomi"
+     },
+     {
+      "reading": "う",
+      "primary": false,
+      "accepted_answer": false,
+      "type": "kunyomi"
+     },
+     {
+      "reading": "こ",
+      "primary": false,
+      "accepted_answer": false,
+      "type": "kunyomi"
+     }
+    ],
+    "component_subject_ids": [
+     117,
+     120
+    ],
+    "amalgamation_subject_ids": [
+     5285,
+     5286,
+     5287,
+     5288,
+     9308
+    ],
+    "visually_similar_subject_ids": [
+     864,
+     891,
+     933,
+     1052,
+     1356,
+     1370,
+     1393,
+     1411,
+     2319
+    ],
+    "meaning_mnemonic": "If what you <radical>say</radical> comes out <radical>blue</radical>, everyone knows that means you made a <kanji>request</kanji>. You request a favor and the words slide out of your mouth in a bright, blue blob. They hover in front of you for a few seconds, before splashing onto the person you made the request to.",
+    "meaning_hint": "Picture this blue, slimy request. You could have done that thing by yourself, but you requested it of someone else, and now it's all over and everyone can see it.",
+    "reading_mnemonic": "The next time someone <kanji>request</kanji>s something from you, take out your <reading>sa</reading>ber (せい) and slice it in half!",
+    "reading_hint": "Now they have the blue request gunk on them, and you can walk away as your already-blue sword absorbs the rest. Oh, and you don't have to fulfill the request (bonus!).",
+    "lesson_position": 18,
+    "spaced_repetition_system_id": 1
+   }
+  },
+  {
+   "id": 1780,
+   "object": "kanji",
+   "url": "https://api.wanikani.com/v2/subjects/1780",
+   "data_updated_at": "2026-10-02T00:07:31.186411Z",
+   "data": {
+    "created_at": "2013-06-24T22:26:46.457914Z",
+    "level": 41,
+    "slug": "拠",
+    "hidden_at": null,
+    "document_url": "https://www.wanikani.com/kanji/%E6%8B%A0",
+    "characters": "拠",
+    "meanings": [
+     {
+      "meaning": "Based On",
+      "primary": true,
+      "accepted_answer": true
+     }
+    ],
+    "auxiliary_meanings": [
+     {
+      "meaning": "Foundation",
+      "type": "whitelist"
+     },
+     {
+      "meaning": "Foothold",
+      "type": "whitelist"
+     }
+    ],
+    "readings": [
+     {
+      "reading": "きょ",
+      "primary": true,
+      "accepted_answer": true,
+      "type": "onyomi"
+     },
+     {
+      "reading": "こ",
+      "primary": false,
+      "accepted_answer": true,
+      "type": "onyomi"
+     },
+     {
+      "reading": "よ",
+      "primary": false,
+      "accepted_answer": false,
+      "type": "kunyomi"
+     }
+    ],
+    "component_subject_ids": [
+     63,
+     60,
+     177
+    ],
+    "amalgamation_subject_ids": [
+     6488,
+     6489,
+     6490,
+     6491
+    ],
+    "visually_similar_subject_ids": [
+     1354,
+     1778
+    ],
+    "meaning_mnemonic": "Use your <radical>fingers</radical> to wipe this <radical>winter</radical> <radical>table</radical> and see what it was <kanji>based on</kanji>. The cold winter weather covers the table in frost, and when you wipe it away, you can see traces of what the table was originally based on. All tables have to be based on something, even if it's just other tables that came before them.",
+    "meaning_hint": "Imagine tracing your fingers over the table, the cold winter frost stinging them, as you reveal the secrets of this table and what it was based on.",
+    "reading_mnemonic": "This particular table was <kanji>based on</kanji> Little <reading>Kyo</reading>to (きょ). Little buildings and temples, that sort of look like Little Kyoto. Problem is, it was made by a <reading>子</reading> (こ), so it's not very good.",
+    "reading_hint": "The buildings and temples are all very childlike. Like crayon drawn on a table.",
+    "lesson_position": 16,
+    "spaced_repetition_system_id": 1
+   }
+  },
+  {
+   "id": 2169,
+   "object": "kanji",
+   "url": "https://api.wanikani.com/v2/subjects/2169",
+   "data_updated_at": "2026-10-02T00:07:31.186411Z",
+   "data": {
+    "created_at": "2015-06-30T19:13:38.861635Z",
+    "level": 52,
+    "slug": "膨",
+    "hidden_at": null,
+    "document_url": "https://www.wanikani.com/kanji/%E8%86%A8",
+    "characters": "膨",
+    "meanings": [
+     {
+      "meaning": "Swell",
+      "primary": true,
+      "accepted_answer": true
+     }
+    ],
+    "auxiliary_meanings": [],
+    "readings": [
+     {
+      "reading": "ぼう",
+      "primary": true,
+      "accepted_answer": true,
+      "type": "onyomi"
+     },
+     {
+      "reading": "ふく",
+      "primary": false,
+      "accepted_answer": false,
+      "type": "kunyomi"
+     }
+    ],
+    "component_subject_ids": [
+     43,
+     421,
+     38
+    ],
+    "amalgamation_subject_ids": [
+     7915,
+     7916,
+     7917,
+     8137
+    ],
+    "visually_similar_subject_ids": [],
+    "meaning_mnemonic": "Play your <radical>drum</radical> under the <radical>moon</radical> and your <radical>hair</radical> will <kanji>swell</kanji>! The more you play and the longer it's under the moon, the larger your hair will swell.",
+    "meaning_hint": "Have you been suffering from flat, boring hair? Well do I have the swelling treatment you've been looking for!",
+    "reading_mnemonic": "Using this method, your hair <kanji>swell</kanji>s so much it looks like a giant <reading>bow</reading>ling (ぼう) ball is sitting on top of your head. It's all round, and well... swollen is probably the only word that fits.",
+    "reading_hint": "Imagine watching your hair swell to the size of a large bowling ball. Imagine never being able to go bowling again because the comparison is too easy for people to make.",
+    "lesson_position": 21,
+    "spaced_repetition_system_id": 1
+   }
+  },
+  {
+   "id": 2319,
+   "object": "kanji",
+   "url": "https://api.wanikani.com/v2/subjects/2319",
+   "data_updated_at": "2026-10-02T00:07:31.186411Z",
+   "data": {
+    "created_at": "2015-07-08T22:47:46.768681Z",
+    "level": 56,
+    "slug": "靖",
+    "hidden_at": null,
+    "document_url": "https://www.wanikani.com/kanji/%E9%9D%96",
+    "characters": "靖",
+    "meanings": [
+     {
+      "meaning": "Peaceful",
+      "primary": true,
+      "accepted_answer": true
+     }
+    ],
+    "auxiliary_meanings": [],
+    "readings": [
+     {
+      "reading": "やす",
+      "primary": true,
+      "accepted_answer": true,
+      "type": "kunyomi"
+     },
+     {
+      "reading": "せい",
+      "primary": false,
+      "accepted_answer": false,
+      "type": "onyomi"
+     }
+    ],
+    "component_subject_ids": [
+     55,
+     120
+    ],
+    "amalgamation_subject_ids": [
+     8337
+    ],
+    "visually_similar_subject_ids": [
+     864,
+     891,
+     1386,
+     1356,
+     1052,
+     1370,
+     933,
+     2187
+    ],
+    "meaning_mnemonic": "<radical>Stand</radical> staring up at the <radical>blue</radical> sky and you'll feel more <kanji>peaceful</kanji> than you ever have. Blue is a color that promotes peaceful thoughts and feelings. That's why all the social media sites are blue. To stop you from being a jerk.",
+    "meaning_hint": "Imagine how peaceful staring at the blue ocean, the blue sky, or the blue tumblr makes you.",
+    "reading_mnemonic": "Now if someone asks you if the color blue makes you <kanji>peaceful</kanji> you should say \"<reading>YAASS</reading> (やす)!\" And you'll have us to thank for that! All those peaceful blue radicals. They're the easiest thing on the site, and if someone asks you if radicals make you feel peaceful say \"YAASS\" again!",
+    "reading_hint": "YAASS! Peaceful blue radicals standing in a row. What's that? YAASS you do want more radicals added to the site. Well okay then, if it will keep you at peace, sure!",
+    "lesson_position": 26,
+    "spaced_repetition_system_id": 1
+   }
+  },
+  {
+   "id": 3270,
+   "object": "vocabulary",
+   "url": "https://api.wanikani.com/v2/subjects/3270",
+   "data_updated_at": "2026-10-02T00:07:31.186411Z",
+   "data": {
+    "created_at": "2012-04-26T06:32:51.000000Z",
+    "level": 11,
+    "slug": "労働",
+    "hidden_at": null,
+    "document_url": "https://www.wanikani.com/vocabulary/%E5%8A%B4%E5%83%8D",
+    "characters": "労働",
+    "meanings": [
+     {
+      "meaning": "Manual Labor",
+      "primary": true,
+      "accepted_answer": true
+     },
+     {
+      "meaning": "Labor",
+      "primary": false,
+      "accepted_answer": true
+     },
+     {
+      "meaning": "Work",
+      "primary": false,
+      "accepted_answer": true
+     }
+    ],
+    "auxiliary_meanings": [
+     {
+      "meaning": "Manual Labour",
+      "type": "whitelist"
+     },
+     {
+      "meaning": "Labour",
+      "type": "whitelist"
+     }
+    ],
+    "readings": [
+     {
+      "reading": "ろうどう",
+      "primary": true,
+      "accepted_answer": true
+     }
+    ],
+    "parts_of_speech": [
+     "noun",
+     "verbal noun",
+     "の adjective"
+    ],
+    "component_subject_ids": [
+     788,
+     809
+    ],
+    "meaning_mnemonic": "The <kanji>labor</kanji> <kanji>work</kanji> is when you're doing work with your body, right? That's <vocabulary>manual labor</vocabulary>.",
+    "reading_mnemonic": "This is a jukugo word, which usually means on'yomi readings from the kanji. If you know the readings of your kanji you'll know how to read this as well.",
+    "context_sentences": [
+     {
+      "en": "The labor hours are very long at this job.",
+      "ja": "この仕事、労働時間がすごく長いんです。"
+     },
+     {
+      "en": "Isn't golfing with clients considered holiday work?",
+      "ja": "クライアントとのゴルフは休日労働じゃないんですか？"
+     },
+     {
+      "en": "Intense physical labor is hard for people at this age.",
+      "ja": "この歳で激しい肉体労働はキツいです。"
+     }
+    ],
+    "pronunciation_audios": [
+     {
+      "url": "https://files.wanikani.com/6uzjxr3skjyoikeozwutdl4r2inx",
+      "metadata": {
+       "gender": "male",
+       "source_id": 2929,
+       "pronunciation": "ろうどう",
+       "voice_actor_id": 2,
+       "voice_actor_name": "Kenichi",
+       "voice_description": "Tokyo accent"
+      },
+      "content_type": "audio/webm"
+     },
+     {
+      "url": "https://files.wanikani.com/e5gg3940h5z84qg5gny2jha3bfgq",
+      "metadata": {
+       "gender": "male",
+       "source_id": 2929,
+       "pronunciation": "ろうどう",
+       "voice_actor_id": 2,
+       "voice_actor_name": "Kenichi",
+       "voice_description": "Tokyo accent"
+      },
+      "content_type": "audio/mpeg"
+     },
+     {
+      "url": "https://files.wanikani.com/f577f6npvu4wrakyk82x6gsjfke6",
+      "metadata": {
+       "gender": "female",
+       "source_id": 21815,
+       "pronunciation": "ろうどう",
+       "voice_actor_id": 1,
+       "voice_actor_name": "Kyoko",
+       "voice_description": "Tokyo accent"
+      },
+      "content_type": "audio/webm"
+     },
+     {
+      "url": "https://files.wanikani.com/kuz1jok3j1v1pi0m5cvaug86gc97",
+      "metadata": {
+       "gender": "female",
+       "source_id": 21815,
+       "pronunciation": "ろうどう",
+       "voice_actor_id": 1,
+       "voice_actor_name": "Kyoko",
+       "voice_description": "Tokyo accent"
+      },
+      "content_type": "audio/mpeg"
+     }
+    ],
+    "lesson_position": 100,
+    "spaced_repetition_system_id": 1
+   }
+  },
+  {
+   "id": 4446,
+   "object": "vocabulary",
+   "url": "https://api.wanikani.com/v2/subjects/4446",
+   "data_updated_at": "2026-10-02T00:07:31.186411Z",
+   "data": {
+    "created_at": "2012-12-04T07:39:51.603739Z",
+    "level": 22,
+    "slug": "評論",
+    "hidden_at": null,
+    "document_url": "https://www.wanikani.com/vocabulary/%E8%A9%95%E8%AB%96",
+    "characters": "評論",
+    "meanings": [
+     {
+      "meaning": "Critique",
+      "primary": true,
+      "accepted_answer": true
+     },
+     {
+      "meaning": "Criticism",
+      "primary": false,
+      "accepted_answer": true
+     }
+    ],
+    "auxiliary_meanings": [
+     {
+      "meaning": "Review",
+      "type": "whitelist"
+     }
+    ],
+    "readings": [
+     {
+      "reading": "ひょうろん",
+      "primary": true,
+      "accepted_answer": true
+     }
+    ],
+    "parts_of_speech": [
+     "noun",
+     "verbal noun"
+    ],
+    "component_subject_ids": [
+     1140,
+     1119
+    ],
+    "meaning_mnemonic": "<kanji>Evaluate</kanji> my <kanji>theory</kanji>. Then, when you evaluate, please give me <vocabulary>critique</vocabulary> and <vocabulary>criticism</vocabulary> to help me get better?",
+    "reading_mnemonic": "This is a jukugo word, which usually means on'yomi readings from the kanji. If you know the readings of your kanji you'll know how to read this as well.",
+    "context_sentences": [
+     {
+      "en": "This critique is pretty cohesive.",
+      "ja": "この評論はよくまとまっているね。"
+     },
+     {
+      "en": "Don't let the words of someone who can only write second-rate criticism get to you.",
+      "ja": "あんな二流の評論しか書けないやつの言葉、気にするなよ。"
+     },
+     {
+      "en": "It’s so cute to see a ten year old girl make a critique in a movie, don't you think?",
+      "ja": "映画の中で十歳の女の子が評論をしているのが可愛いよね。"
+     }
+    ],
+    "pronunciation_audios": [
+     {
+      "url": "https://files.wanikani.com/sufhat9h5k7jn3ulxdbt8qt85efh",
+      "metadata": {
+       "gender": "male",
+       "source_id": 43009,
+       "pronunciation": "ひょうろん",
+       "voice_actor_id": 2,
+       "voice_actor_name": "Kenichi",
+       "voice_description": "Tokyo accent"
+      },
+      "content_type": "audio/webm"
+     },
+     {
+      "url": "https://files.wanikani.com/dr66sx5qitz9ha44zefy37cuh6gv",
+      "metadata": {
+       "gender": "male",
+       "source_id": 43009,
+       "pronunciation": "ひょうろん",
+       "voice_actor_id": 2,
+       "voice_actor_name": "Kenichi",
+       "voice_description": "Tokyo accent"
+      },
+      "content_type": "audio/mpeg"
+     },
+     {
+      "url": "https://files.wanikani.com/4ta3wn37aoxefw5x5de6pak1f5rt",
+      "metadata": {
+       "gender": "female",
+       "source_id": 23083,
+       "pronunciation": "ひょうろん",
+       "voice_actor_id": 1,
+       "voice_actor_name": "Kyoko",
+       "voice_description": "Tokyo accent"
+      },
+      "content_type": "audio/webm"
+     },
+     {
+      "url": "https://files.wanikani.com/lxk1690grb3aperjdep8nzgnaxqu",
+      "metadata": {
+       "gender": "female",
+       "source_id": 23083,
+       "pronunciation": "ひょうろん",
+       "voice_actor_id": 1,
+       "voice_actor_name": "Kyoko",
+       "voice_description": "Tokyo accent"
+      },
+      "content_type": "audio/mpeg"
+     }
+    ],
+    "lesson_position": 121,
+    "spaced_repetition_system_id": 1
+   }
+  },
+  {
+   "id": 9220,
+   "object": "kana_vocabulary",
+   "url": "https://api.wanikani.com/v2/subjects/9220",
+   "data_updated_at": "2026-10-02T00:07:31.186411Z",
+   "data": {
+    "created_at": "2023-04-25T00:28:12.335485Z",
+    "level": 10,
+    "slug": "しかし",
+    "hidden_at": null,
+    "document_url": "https://www.wanikani.com/vocabulary/%E3%81%97%E3%81%8B%E3%81%97",
+    "characters": "しかし",
+    "meanings": [
+     {
+      "meaning": "However",
+      "primary": true,
+      "accepted_answer": true
+     }
+    ],
+    "auxiliary_meanings": [
+     {
+      "meaning": "Yet",
+      "type": "whitelist"
+     },
+     {
+      "meaning": "But",
+      "type": "whitelist"
+     }
+    ],
+    "parts_of_speech": [
+     "conjunction"
+    ],
+    "meaning_mnemonic": "<reading>She cashe</reading>s (しかし) in on everything. <vocabulary>However</vocabulary>, this time you're going to stop her. No more cashing in.\n\nしかし is used at the beginning of a sentence, just like \"however.\" It's pretty formal, and you'll see it much more in written Japanese than spoken Japanese.",
+    "context_sentences": [
+     {
+      "en": "However, that was a lie.",
+      "ja": "しかし、それはウソだった。"
+     },
+     {
+      "en": "However, it was raining that day.",
+      "ja": "しかし、その日は雨だった。"
+     },
+     {
+      "en": "However, she was found by the queen.",
+      "ja": "しかし、女王に見つかってしまった。"
+     }
+    ],
+    "pronunciation_audios": [
+     {
+      "url": "https://files.wanikani.com/hej7lo6xdtpxf4f59qzzqgqytodx",
+      "metadata": {
+       "gender": "male",
+       "source_id": 44765,
+       "pronunciation": "しかし",
+       "voice_actor_id": 2,
+       "voice_actor_name": "Kenichi",
+       "voice_description": "Tokyo accent"
+      },
+      "content_type": "audio/webm"
+     },
+     {
+      "url": "https://files.wanikani.com/w4k90pmiwp34cxtt2plc6rv81ie7",
+      "metadata": {
+       "gender": "male",
+       "source_id": 44765,
+       "pronunciation": "しかし",
+       "voice_actor_id": 2,
+       "voice_actor_name": "Kenichi",
+       "voice_description": "Tokyo accent"
+      },
+      "content_type": "audio/mpeg"
+     },
+     {
+      "url": "https://files.wanikani.com/1ynu0y2ekx9sh01brcc5d2xfnnj0",
+      "metadata": {
+       "gender": "female",
+       "source_id": 44706,
+       "pronunciation": "しかし",
+       "voice_actor_id": 1,
+       "voice_actor_name": "Kyoko",
+       "voice_description": "Tokyo accent"
+      },
+      "content_type": "audio/webm"
+     },
+     {
+      "url": "https://files.wanikani.com/4xkz716vghq1chdu1ahq3x3fkmc3",
+      "metadata": {
+       "gender": "female",
+       "source_id": 44706,
+       "pronunciation": "しかし",
+       "voice_actor_id": 1,
+       "voice_actor_name": "Kyoko",
+       "voice_description": "Tokyo accent"
+      },
+      "content_type": "audio/mpeg"
+     }
+    ],
+    "lesson_position": 73,
+    "spaced_repetition_system_id": 1
+   }
+  }
+ ]
+}

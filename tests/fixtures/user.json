@@ -1,0 +1,29 @@
+{
+ "object": "user",
+ "url": "https://api.wanikani.com/v2/user",
+ "data_updated_at": "2026-11-12T15:34:38.884764Z",
+ "data": {
+  "id": "00000000-0000-0000-0000-000000000000",
+  "username": "fixture_user",
+  "level": 60,
+  "profile_url": "https://www.wanikani.com/users/fixture_user",
+  "started_at": "2020-01-01T00:00:00.000000Z",
+  "subscription": {
+   "active": true,
+   "type": "lifetime",
+   "max_level_granted": 60,
+   "period_ends_at": null
+  },
+  "current_vacation_started_at": null,
+  "preferences": {
+   "lessons_autoplay_audio": true,
+   "lessons_batch_size": 10,
+   "reviews_autoplay_audio": true,
+   "reviews_display_srs_indicator": true,
+   "extra_study_autoplay_audio": true,
+   "reviews_presentation_order": "shuffled",
+   "lessons_presentation_order": "ascending_level_then_subject",
+   "default_voice_actor_id": 1
+  }
+ }
+}
