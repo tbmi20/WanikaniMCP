@@ -114,3 +114,32 @@ def no_sleep():
 
     sleep.waits = waits  # type: ignore[attr-defined]
     return sleep
+
+
+@pytest.fixture
+async def client(fake_api: FakeWaniKani, no_sleep):
+    from wanikani_mcp.client import WaniKaniClient
+
+    async with WaniKaniClient(FAKE_TOKEN, transport=fake_api.transport(), sleep=no_sleep) as c:
+        yield c
+
+
+@pytest.fixture
+def db():
+    from wanikani_mcp.db import Database
+
+    database = Database(":memory:")
+    yield database
+    database.close()
+
+
+@pytest.fixture
+async def first_sync_summary(client, db):
+    from wanikani_mcp.sync import sync
+
+    return await sync(client, db)
+
+
+@pytest.fixture
+async def synced_db(db, first_sync_summary):
+    return db
